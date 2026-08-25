@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700&display=swap');
 
 .back {
     height: 100vh;
@@ -11,42 +11,32 @@
     margin: 10px;
     height: 120px;
     width: 180px;
-    border-top-right-radius: 25px;
-    border-top-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-    border-bottom-left-radius: 25px;
-
-
-
+    border-radius: 25px;
 }
 
 h1 {
     font-size: 60px;
+    font-family: 'Lobster', cursive;
 }
 
 .b1 {
-    margin-top: 5px;
-    margin-left: 78px;
+    margin: 5px auto;
     background-color: #F0F0FF;
-    background-size: cover;
     height: 190px;
     width: 400px;
-    border-radius:25px;
+    border-radius: 25px;
     padding: 49px;
 }
 
-.but {
-    margin: 10px;
-    margin-right: 8px;
-    height: 60px;
-    width: 95px;
-    border-radius: 50%;
-}
-
-.but1 {
+.button {
     margin: 10px;
     height: 60px;
     width: 95px;
-    border-radius: 50%;
-
+    border-radius: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
+
+.increment { background-color: green; color: white; }
+.decrement { background-color: red; color: white; }
+.reset { background-color: gray; color: white; }
