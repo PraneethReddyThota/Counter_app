@@ -31,10 +31,7 @@ h1 {
     background-size: cover;
     height: 190px;
     width: 400px;
-    border-top-right-radius: 25px;
-    border-top-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-    border-bottom-left-radius: 25px;
+    border-radius:25px;
     padding: 49px;
 }
 
@@ -42,14 +39,14 @@ h1 {
     margin: 10px;
     margin-right: 8px;
     height: 60px;
-    width: 90px;
+    width: 95px;
     border-radius: 25px;
 }
 
 .but1 {
     margin: 10px;
     height: 60px;
-    width: 90px;
+    width: 95px;
     border-radius: 25px;
 
 }
