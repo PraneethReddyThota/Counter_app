@@ -2,13 +2,13 @@
 
 .back {
     height: 100vh;
-    width: 100%;
+    width: 80vw;
     padding: 9px;
     text-align: center;
 }
 
 .img1 {
-    margin: 10px;
+    margin: px;
     height: 120px;
     width: 180px;
     border-top-right-radius: 25px;
@@ -26,7 +26,7 @@ h1 {
 
 .b1 {
     margin-top: 5px;
-   margin-left: 80px;
+    margin-left: 20px;
     background-color: #F0F0FF;
     background-size: cover;
     height: 190px;
@@ -38,13 +38,23 @@ h1 {
     padding: 49px;
 }
 
+.but {
+    margin: 10px;
+    margin-right: 8px;
+    height: 60px;
+    width: 90px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
 
 .but1 {
     margin: 10px;
     height: 60px;
     width: 90px;
-  margin-right: 25px;
-
-    border-radius: 10px;
-
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
 }
